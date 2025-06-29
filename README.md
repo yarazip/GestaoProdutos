@@ -4,14 +4,13 @@ Este projeto consiste em uma API REST simples para o gerenciamento de produtos e
 
 ## 🚀 Objetivo
 
-Facilitar o gerenciamento de produtos e suas respectivas categorias para que sistemas front-end (como Angular ou React) possam consumir os dados de forma eficiente e segura.
+Facilitar o gerenciamento de produtos e suas respectivas categorias para que sistemas front-end possam consumir os dados de forma eficiente e segura.
 
 ## 🛠️ Tecnologias Utilizadas
 
 - Java + Spring Boot (Backend)
 - Spring Data JPA + Hibernate (Persistência)
-- MySQL ou H2 Database (Banco de Dados)
-- Postman ou Swagger (Para testes)
+- Postgres (Banco de Dados)
 - Maven (Gerenciamento de dependências)
 
 ---
