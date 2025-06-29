@@ -68,4 +68,4 @@ Facilitar o gerenciamento de produtos e suas respectivas categorias para que sis
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/gestao-produtos-api.git
+git clone https://github.com/seu-usuario/GestaoProdutos.git
