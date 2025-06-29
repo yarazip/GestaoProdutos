@@ -1,11 +1,10 @@
-package br.df.senac.lpooII.service;
-
+package br.df.senac.javaprod.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.df.senac.lpooII.dto.CategoriaDTO;
-import br.df.senac.lpooII.entity.Categoria;
-import br.df.senac.lpooII.repository.CategoriaRepository;
+import br.df.senac.javaprod.dto.CategoriaDTO;
+import br.df.senac.javaprod.entity.Categoria;
+import br.df.senac.javaprod.repository.CategoriaRepository;
 
 import java.util.ArrayList;
 import java.util.List;

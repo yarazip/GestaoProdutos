@@ -1,4 +1,4 @@
-package br.df.senac.lpooII.entity;
+package br.df.senac.javaprod.entity;
 
 import java.util.List;
 

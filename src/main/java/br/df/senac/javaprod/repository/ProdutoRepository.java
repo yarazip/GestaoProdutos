@@ -1,11 +1,11 @@
-package br.df.senac.lpooII.repository;
+package br.df.senac.javaprod.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import br.df.senac.lpooII.entity.Produto;
+import br.df.senac.javaprod.entity.Produto;
 
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 

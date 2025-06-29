@@ -1,4 +1,4 @@
-package br.df.senac.lpooII.dto;
+ package br.df.senac.javaprod.dto;
 
 import jakarta.validation.constraints.NotBlank;
 

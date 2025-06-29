@@ -1,4 +1,4 @@
-package br.df.senac.lpooII;
+package br.df.senac.javaprod;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,14 +8,14 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@EntityScan(basePackages = "br.df.senac.lpooII.entity")
-@EnableJpaRepositories(basePackages = "br.df.senac.lpooII.repository")
-@ComponentScan(basePackages = "br.df.senac.lpooII")
+@EntityScan(basePackages = "br.df.senac.javaprod.entity")
+@EnableJpaRepositories(basePackages = "br.df.senac.javaprod.repository")
+@ComponentScan(basePackages = "br.df.senac.javaprod")
 @EnableTransactionManagement
-public class LpooIiApplication {
+public class JavaProdApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LpooIiApplication.class, args);
+		SpringApplication.run(JavaProdApplication.class, args);
 	}
 
 }

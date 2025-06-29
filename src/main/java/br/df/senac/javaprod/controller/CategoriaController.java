@@ -1,4 +1,4 @@
-package br.df.senac.lpooII.controller;
+package br.df.senac.javaprod.controller;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.df.senac.lpooII.dto.CategoriaDTO;
-import br.df.senac.lpooII.service.CategoriaService;
+import br.df.senac.javaprod.dto.CategoriaDTO;
+import br.df.senac.javaprod.service.CategoriaService;
 import jakarta.validation.Valid;
 
 @RestController

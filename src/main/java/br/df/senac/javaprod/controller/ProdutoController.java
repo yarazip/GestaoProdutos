@@ -1,6 +1,7 @@
-package br.df.senac.lpooII.controller;
+package br.df.senac.javaprod.controller;
 
 import java.util.List;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.df.senac.lpooII.dto.ProdutoDTO;
-import br.df.senac.lpooII.service.ProdutoService;
+import br.df.senac.javaprod.dto.ProdutoDTO;
+import br.df.senac.javaprod.service.ProdutoService;
 import jakarta.validation.Valid;
 
 @RestController

@@ -1,6 +1,8 @@
+package br.df.senac.javaprod.dto;
 
-package br.df.senac.lpooII.dto;
+import java.math.BigDecimal;
 
+import jakarta.persistence.Column;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -17,28 +19,27 @@ public class ProdutoDTO {
 
 	@Positive(message = "O preço deve ser maior que zero")
 
-	private Double preco;
+	private BigDecimal preco;
 
 	@NotNull(message = "A categoria do produto é obrigatória")
 
 	private Long categoriaId;
+
+	private String categoriaNome;
 
 // Construtores
 
 	public ProdutoDTO() {
 	}
 
-	public ProdutoDTO(Long id, String nome, Double preco, Long categoriaId) {
-
-		this.id = id;
-
-		this.nome = nome;
-
-		this.preco = preco;
-
-		this.categoriaId = categoriaId;
-
+	public ProdutoDTO(Long id, String nome, BigDecimal preco, Long categoriaId, String categoriaNome) {
+	    this.id = id;
+	    this.nome = nome;
+	    this.preco = preco;
+	    this.categoriaId = categoriaId;
+	    this.categoriaNome = categoriaNome;
 	}
+
 
 	public Long getId() {
 		return id;
@@ -56,13 +57,14 @@ public class ProdutoDTO {
 		this.nome = nome;
 	}
 
-	public Double getPreco() {
-		return preco;
+	public BigDecimal getPreco() {
+	    return preco;
 	}
 
-	public void setPreco(Double preco) {
-		this.preco = preco;
+	public void setPreco(BigDecimal preco) {
+	    this.preco = preco;
 	}
+
 
 	public Long getCategoriaId() {
 		return categoriaId;
@@ -71,7 +73,12 @@ public class ProdutoDTO {
 	public void setCategoriaId(Long categoriaId) {
 		this.categoriaId = categoriaId;
 	}
+	public String getCategoriaNome() { 
+		return categoriaNome;
+	}
 
-// implemente Getters e Setters de cada atributo
+	public void setCategoriaNome(String categoriaNome) { 
+		this.categoriaNome = categoriaNome;
+	}
 
 }

@@ -66,11 +66,17 @@
 			<artifactId>postgresql</artifactId>
 			    <version>42.2.13</version>
 		</dependency>
+				<!-- Thymeleaf -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
-<dependency>
-    <groupId>com.h2database</groupId>
-    <artifactId>h2</artifactId>
-    <version>2.2.222</version>
+		<dependency>
+   			 <groupId>com.h2database</groupId>
+    		<artifactId>h2</artifactId>
+    		<version>2.2.222</version>
+    	<scope>test</scope>
 </dependency>
 	</dependencies>
 

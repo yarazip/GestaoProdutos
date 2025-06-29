@@ -1,4 +1,4 @@
-package br.df.senac.lpooII;
+package br.df.senac.javaprod;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(LpooIiApplication.class);
+		return application.sources(JavaProdApplication.class);
 	}
 
 }
